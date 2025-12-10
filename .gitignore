@@ -1,7 +1,7 @@
 # Ignore the database
 *.db
 
-# Ignore compiled python files
+# Ignore compiled Python files
 __pycache__/
 *.pyc
 
