@@ -1,0 +1,12 @@
+# Ignore the database
+*.db
+
+# Ignore compiled python files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+.env
+.DS_Store
