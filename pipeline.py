@@ -12,7 +12,7 @@ END_TIME = datetime(2025, 11, 24, 23, 59, 59)
 
 # Coinbase API Granularity: 60 seconds (1 minute).
 # Note: Granularity dictates the maximum time window per request (max 300 data points).
-GRANULARITY = 60 
+GRANULARITY = 60  
 
 # --- Database Setup ---
 def init_db(reset=False):

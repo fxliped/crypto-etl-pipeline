@@ -70,7 +70,6 @@ def generate_plot(df):
         ax.set_ylabel(f'Volume ({id})', color='cornflowerblue', fontweight='bold')
         ax.tick_params(axis='y', labelcolor='cornflowerblue')
         
-
         # PLOT 2: PRICE (Line Chart on Secondary Y-Axis) ---
         ax2 = ax.twinx()  # Creating a second y-axis that shares the same x-axis
         ax2.plot(subset['hour_bucket'], subset['hourly_avg_price'], 

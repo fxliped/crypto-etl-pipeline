@@ -1,5 +1,6 @@
 # Coinbase Project - Crypro Data ETL Pipeline
 
+
 ## Overview
 This project is a lightweight ETL (Extract, Transform, Load) pipeline designed to fetch granular historical market data ("Ground Truth") for cryptocurrency pairs (BTC-USD, ETH-USD). It connects to the Coinbase Pro Public API, retrieves OHLCV (Open, High, Low, Close, Volume) data, and persists it into a local SQLite database for downstream analysis.
 
