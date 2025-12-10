@@ -19,10 +19,14 @@ This project is a lightweight ETL (Extract, Transform, Load) pipeline designed t
 * **Language:** Python 3.x
 * **Data Source:** Coinbase Pro Public API (`/products/{id}/candles`)
 * **Storage:** SQLite (`crypto_data.db`)
-* **Libraries:** `requests`, `sqlite3`
+* **Libraries:** `requests`, `pandas`, `matplotlib`
+
+---
 
 ## How to Run
 
-1. **Install Dependencies:**
-   ```bash
-   pip install requests
+### 1. Prerequisites
+Ensure you have Python 3 installed. Install the required dependencies:
+
+```bash
+pip install requests pandas matplotlib
